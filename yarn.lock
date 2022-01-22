@@ -3444,6 +3444,11 @@ commander@^2.18.0, commander@^2.19.0, commander@^2.20.0, commander@~2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.1.tgz#3863ce3ca92d0831dcf2a102f5fb4b5926afd0f9"
   integrity sha512-cCuLsMhJeWQ/ZpsFTbE765kvVfoeSddc4nU3up4fV+fDBcfUXnbITJ+JzhkdjzOqhURjZgujxaioam4RM9yGUg==
 
+commander@^2.20.3:
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+
 common-path-prefix@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/common-path-prefix/-/common-path-prefix-1.0.0.tgz#cd52f6f0712e0baab97d6f9732874f22f47752c0"
@@ -3900,6 +3905,11 @@ cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
+cssfilter@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/cssfilter/-/cssfilter-0.0.10.tgz#c6d2672632a2e5c83e013e6864a42ce8defd20ae"
+  integrity sha1-xtJnJjKi5cg+AT5oZKQs6N79IK4=
 
 cssnano-preset-default@^4.0.7:
   version "4.0.7"
@@ -7217,6 +7227,13 @@ matcher@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.4"
 
+mavon-editor@^2.7.6:
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/mavon-editor/-/mavon-editor-2.10.4.tgz#58d6c4dc208933f0ac4595c10c60655899ba8ba8"
+  integrity sha512-CFsBLkgt/KZBDg+SJYe2fyYv4zClY149PiwpH0rDAiiP4ae1XNs0GC8nBsoTeipsHcebDLN1QMkt3bUsnMDjQw==
+  dependencies:
+    xss "^1.0.6"
+
 md5-hex@^1.2.0, md5-hex@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/md5-hex/-/md5-hex-1.3.0.tgz#d2c4afe983c4370662179b8cad145219135046c4"
@@ -7592,9 +7609,11 @@ no-case@^2.2.0:
     lower-case "^1.1.1"
 
 node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-libs-browser@^2.0.0:
   version "2.1.0"
@@ -10808,6 +10827,11 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
 trim-newlines@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-1.0.0.tgz#5887966bb582a4503a41eb524f7d35011815a613"
@@ -11313,6 +11337,11 @@ watchpack@^1.6.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
@@ -11490,6 +11519,14 @@ whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
   integrity sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==
 
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
+
 whatwg-url@^6.4.1:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-6.5.0.tgz#f2df02bff176fd65070df74ad5ccbb5a199965a8"
@@ -11653,6 +11690,14 @@ xmlserializer@~0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/xmlserializer/-/xmlserializer-0.6.1.tgz#14099f60272e16cb608be3758992f998070cc29a"
   integrity sha512-FNb0eEqqUUbnuvxuHqNuKH8qCGKqxu+558Zi8UzOoQk8Z9LdvpONK+v7m3gpKVHrk5Aq+0nNLsKxu/6OYh7Umw==
+
+xss@^1.0.6:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/xss/-/xss-1.0.10.tgz#5cd63a9b147a755a14cb0455c7db8866120eb4d2"
+  integrity sha512-qmoqrRksmzqSKvgqzN0055UFWY7OKx1/9JWeRswwEVX9fCG5jcYRxa/A2DHcmZX6VJvjzHRQ2STeeVcQkrmLSw==
+  dependencies:
+    commander "^2.20.3"
+    cssfilter "0.0.10"
 
 xtend@^4.0.0:
   version "4.0.1"
