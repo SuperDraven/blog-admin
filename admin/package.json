@@ -44,7 +44,7 @@
     "koa-static": "^5.0.0",
     "mavon-editor": "^2.7.6",
     "nuxt": "latest",
-    "qs": "^6.9.0",
+    "qs": "^6.9.7",
     "rasterizehtml": "^1.2.4",
     "simplemde": "^1.11.2",
     "sortablejs": "^1.7.0",
